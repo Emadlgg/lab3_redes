@@ -1,0 +1,27 @@
+{
+  "node_id": "C",
+  "listen_ip": "127.0.0.1",
+  "listen_port": 6003,
+  "role": "router",
+
+  "neighbors": [
+    {
+      "node_id": "B",
+      "ip": "127.0.0.1",
+      "port": 6002,
+      "cost": 3
+    }
+  ],
+
+  "local_endpoints": [
+    {
+      "node_id": "servidor1",
+      "ip": "127.0.0.1",
+      "port": 9002
+    }
+  ],
+
+  "endpoint_routes": {
+    "servidor1": "C"
+  }
+}

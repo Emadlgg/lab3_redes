@@ -1,0 +1,9 @@
+{
+  "node_id": "servidor1",
+  "listen_ip": "127.0.0.1",
+  "listen_port": 9002,
+  "role": "server",
+  "neighbors": [
+    { "node_id": "C", "ip": "127.0.0.1", "port": 6003, "cost": 0 }
+  ]
+}

@@ -1,0 +1,3 @@
+destino,siguiente_salto,ip,puerto,costo
+A,B,127.0.0.1,6002,5
+B,B,127.0.0.1,6002,3
