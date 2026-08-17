@@ -1,0 +1,13 @@
+{
+  "node_id": "bank1",
+  "listen_ip": "127.0.0.1",
+  "listen_port": 9004,
+  "role": "server",
+  "neighbors": [
+    { "node_id": "C", "ip": "127.0.0.1", "port": 6003, "cost": 0 }
+  ],
+  "accounts": [
+    { "card": "4000-0001", "pin": "1234", "balance": 1500.00 },
+    { "card": "4000-0002", "pin": "5678", "balance": 320.50 }
+  ]
+}

@@ -20,6 +20,8 @@
   ],
 
   "endpoint_routes": {
-    "servidor1": "C"
+    "servidor1": "C",
+    "bank1": "C",
+    "atm1": "A"
   }
 }

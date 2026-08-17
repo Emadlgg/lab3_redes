@@ -18,10 +18,16 @@
       "node_id": "cliente1",
       "ip": "127.0.0.1",
       "port": 9001
+    },
+    {
+      "node_id": "atm1",
+      "ip": "127.0.0.1",
+      "port": 9003
     }
   ],
 
   "endpoint_routes": {
-    "servidor1": "C"
+    "servidor1": "C",
+    "bank1": "C"
   }
 }
