@@ -1,0 +1,4 @@
+destino,siguiente_salto,ip,puerto,costo
+u,y,100.98.110.24,5000,3
+x,y,100.98.110.24,5000,2
+y,y,100.98.110.24,5000,1

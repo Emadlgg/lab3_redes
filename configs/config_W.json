@@ -1,0 +1,32 @@
+{
+  "node_id": "w",
+  "listen_ip": "100.121.29.100",
+  "listen_port": 5000,
+  "role": "router",
+
+  "neighbors": [
+    {
+      "node_id": "y",
+      "ip": "100.98.110.24",
+      "port": 5000,
+      "cost": 1
+    },
+    {
+      "node_id": "v",
+      "ip": "100.79.148.59",
+      "port": 5000,
+      "cost": 1
+    }
+  ],
+
+  "hosts": {
+    "client1": {
+      "gateway": "z"
+    },
+    "server1": {
+      "gateway": "x"
+    }
+  },
+
+  "attached_hosts": []
+}
